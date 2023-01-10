@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Photo Palette Generator</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+<div class="wrapper">
+  <h1>Palette Generator</h1>
+  <h3>Upload your photo to get your own color palette based on the photo.</h3>
+    <p>Select photo, submit. Please allow several seconds for generator to process.</p>
+<form action="/" method="post" enctype=multipart/form-data>
+  <input type="file" id="image" name="image" accept="image/*" />
+  <label for="image" />Select Image</label>
+    <input type="submit" id="submit" value="Submit"/>
+</form>
+
+</div>
+</body>
+</html>
